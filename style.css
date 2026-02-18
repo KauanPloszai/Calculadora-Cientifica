@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1C1C1C;
+}
+.calc{
+    position: relative;
+    top: 80px;
+    left: 26rem;
+    border: 1px solid black;
+    width: 480px;
+    height: 555px;
+    border: 2px solid #00005a;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px #00008B,
+                2px 2px 0px #00008B,
+                3px 3px 0px #00008B,
+                4px 4px 0px #00008B,
+                5px 5px 0px #00008B,
+                6px 6px 6px #00008B;
+}
+#display{
+    direction: rtl;
+    margin: 0;
+    width: 476px;
+    height: 60px;
+    font-size: 40px;
+    border: 2px solid #008000;
+    border-radius: 10px;
+}
+.btnTop{
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    position: relative;
+    left: 10px;
+    font-size: larger;
+    box-shadow: 6px 3px 2px  #008080;
+    border: 2px solid #005e5e;
+    border-radius: 10px;
+}
+.btnNum{
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    position: relative;
+    left: 10px;
+    font-size: larger;
+    box-shadow: 6px 3px 2px  #008080;
+    border: 2px solid #005e5e;
+    border-radius: 10px;
+}
+.btnMath{
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    position: relative;
+    left: 10px;
+    font-size: larger;
+    box-shadow: 6px 3px 2px  #008080;
+    border: 2px solid #005e5e;
+    border-radius: 10px;
+}
+.btnOpps{
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    position: relative;
+    left: 10px;
+    font-size: larger;
+    box-shadow: 6px 3px 2px  #008080;
+    border: 2px solid #005e5e;
+    border-radius: 10px;
+}
+.btnOpps:active{
+    position: relative;
+    translate: 6px 2px;
+    box-shadow: none;
+}
+.btnMath:active{
+    position: relative;
+    translate: 6px 2px;
+    box-shadow: none;
+}
+.btnNum:active{
+    position: relative;
+    translate: 6px 2px;
+    box-shadow: none;
+}
+.btnTop:active{
+    position: relative;
+    translate: 6px 2px;
+    box-shadow: none;
+}
